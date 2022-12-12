@@ -1,0 +1,33 @@
+.mainBlock {
+    height: 10vh;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer {
+    height: 100%;
+    width: 80%;
+    border-top: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 360px) {
+    .mainBlock {
+        height: 15vh;
+    }
+
+    .links {
+        flex-direction: column;
+        width: auto;
+    }
+}

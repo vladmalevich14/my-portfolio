@@ -1,0 +1,28 @@
+.mainBlock {
+    height: 50vh;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid;
+    height: 80%;
+    width: 80%;
+}
+
+.inputStyle {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 0;
+}

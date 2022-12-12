@@ -1,0 +1,16 @@
+.skillMainBlock {
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.skillContainer {
+    width: 250px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+}
