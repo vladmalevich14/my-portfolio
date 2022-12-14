@@ -11,16 +11,21 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid;
+    border: 1px solid black;
     height: 80%;
     width: 80%;
+    color: #c4cfde;
 }
 
 .inputStyle {
-    width: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+}
+
+.submit {
+    color: #ff014f;
 }
 
 h3 {

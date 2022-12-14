@@ -1,6 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: peachpuff;
+    background-color: olivedrab;
 }
 
 .container {
@@ -15,6 +15,17 @@
 
 .photo {
     height: 400px;
-    width: 300px;
+    width: 350px;
     border: 1px solid;
+}
+
+.infoContainer {
+    color: #ff014f;
+    font-weight: bold;
+    font-size: 23px;
+    background-color: lemonchiffon;
+}
+
+.infoContainer h1{
+    color: #c4cfde;
 }

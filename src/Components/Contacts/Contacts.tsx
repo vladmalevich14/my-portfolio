@@ -15,7 +15,7 @@ export const Contacts = () => {
             </div>
             <div className={styles.inputStyle}>
                 <textarea placeholder={'type your message'} cols={60} rows={5}></textarea>
-                <input type="submit" value="Send Request"/>
+                <input type="submit" value="Send Request" className={styles.submit}/>
             </div>
         </form>
     </div>

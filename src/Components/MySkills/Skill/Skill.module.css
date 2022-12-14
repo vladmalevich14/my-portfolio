@@ -1,16 +1,23 @@
 .skillMainBlock {
     width: 300px;
-    border: 1px solid;
+    border: 1px solid black;
     padding: 10px;
     margin: 10px 0;
+    color: #c4cfde;
 }
 
 .skillContainer {
     width: 250px;
+    background-color: lemonchiffon;
 }
 
 .icon {
     height: 50px;
     width: 50px;
-    background-color: grey;
+    background-image: url("https://static.thenounproject.com/png/487779-200.png");
+    background-size: contain;
+}
+
+.skillDescription {
+    color: #878e99;
 }
