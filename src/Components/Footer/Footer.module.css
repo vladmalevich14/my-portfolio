@@ -17,23 +17,7 @@
 
 .footerContainer span {
     color: #c4cfde;
-    background-color: lemonchiffon;
-}
-
-.links {
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    background-color: lemonchiffon;
-}
-
-.links a {
-    text-decoration: none;
-    color: #c4cfde;
-}
-
-.links a:hover {
-    color: #ff014f;
+    border: 1px solid black;
 }
 
 @media screen and (min-width: 360px) {

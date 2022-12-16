@@ -1,0 +1,23 @@
+.links {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.links a {
+    text-decoration: none;
+    color: #c4cfde;
+}
+
+.links a:hover {
+    color: #ff014f;
+}
+
+@media screen and (min-width: 360px) and (max-width: 700px) {
+    .links {
+        flex-direction: column;
+        width: auto;
+    }
+}

@@ -8,7 +8,7 @@
 
 .skillContainer {
     width: 250px;
-    background-color: lemonchiffon;
+    border: 1px solid black;
 }
 
 .icon {

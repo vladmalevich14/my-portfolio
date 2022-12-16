@@ -23,7 +23,7 @@
     color: #ff014f;
     font-weight: bold;
     font-size: 23px;
-    background-color: lemonchiffon;
+    border: 1px solid black;
 }
 
 .infoContainer h1{

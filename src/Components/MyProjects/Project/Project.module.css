@@ -47,7 +47,7 @@
     text-decoration: none;
     font-weight: 700;
     color: #c4cfde;
-    background-color: lemonchiffon;
+    border: 1px solid black;
 }
 
 .link:hover {
