@@ -29,7 +29,7 @@ h2 {
     border: 1px solid black;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
     .skillContainer {
         justify-content: center;
     }

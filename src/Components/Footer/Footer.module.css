@@ -1,5 +1,5 @@
 .mainBlock {
-    height: 10vh;
+    min-height: 10vh;
     background-color: rosybrown;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 360px) {
     .mainBlock {
-        height: 15vh;
+        min-height: 15vh;
     }
 
     .links {
