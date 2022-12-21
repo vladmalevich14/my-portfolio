@@ -1,5 +1,5 @@
 .mainBlock {
-    height: 50vh;
+    min-height: 50vh;
     background-color: tan;
     display: flex;
     justify-content: center;
