@@ -1,23 +1,39 @@
 .skillMainBlock {
-    width: 300px;
+    width: 250px;
     border: 1px solid black;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 15px 10px;
     color: #c4cfde;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    position: relative;
+}
+
+.skillMainBlock:hover .skillContainer{
+    transform: translateY(0px);
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 .skillContainer {
-    width: 250px;
-    border: 1px solid black;
+    position: relative;
+    transform: translateY(10px);
+    transition: 0.5s all ease-in-out;
+}
+
+.skillContainer h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: #c4cfde;
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
-    background-image: url("https://static.thenounproject.com/png/487779-200.png");
+    height: 60px;
+    width: 66px;
     background-size: contain;
-}
-
-.skillDescription {
-    color: #878e99;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    color: #ff014f;
 }

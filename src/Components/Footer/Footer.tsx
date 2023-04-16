@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css'
-import SocialNetworks from "../Header/SocialNetworks/SocialNetworks";
+import SocialNetworks from "./SocialNetworks/SocialNetworks";
 
 export const Footer = () => {
     return <div className={styles.mainBlock}>

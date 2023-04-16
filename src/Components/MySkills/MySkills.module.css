@@ -1,13 +1,13 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: teal;
+    background-color: #212428;
     display: flex;
     align-items: center;
 }
 
 .skillsWrapper {
     height: 100%;
-    width: 80%;
+    width: 90%;
     border: 1px solid black;
     margin: 0 auto;
     display: flex;
@@ -20,17 +20,11 @@
     height: 80%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
 h2 {
     border: 1px solid black;
-}
-
-@media screen and (min-width: 360px) {
-    .skillContainer {
-        justify-content: center;
-    }
 }

@@ -1,18 +1,19 @@
 import React from 'react';
 import styles from '../Project/Project.module.css'
+import {backgroundImgType} from "../MyProjects";
 
 type ProjectPropsType = {
+    style: backgroundImgType
     title: string
-    photoUrl: string
 }
 
 export const Project = (props: ProjectPropsType) => {
     return <div className={styles.projectMainBlock}>
-        <div className={styles.projectBlock}>
-            <img src={props.photoUrl} alt="" className={styles.image}/>
-            <div className={styles.linkContainer}>
-                <a href="#" className={styles.linkImage}>{props.title}</a>
-            </div>
+        <div className={styles.projectBlock} style={props.style}>
+            <div className={styles.imageFilter}></div>
+                <a href="#" className={styles.linkImage}>
+                    <span>Live Preview</span>
+                </a>
         </div>
         <div>
             <h3>

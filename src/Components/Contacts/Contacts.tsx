@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Contacts.module.css'
+import {Title} from "../common/Title";
 
 export const Contacts = () => {
     return <div className={styles.mainBlock}>
         <form action="src/Components/Contacts/Contacts" className={styles.formContainer}>
-            <legend><h3>Contacts</h3></legend>
+            <legend><Title title={'Contacts'} /></legend>
             <div className={styles.inputStyle}>
                 <label htmlFor="name">Name</label>
                 <input type="text" name="Name" id="name"/>
