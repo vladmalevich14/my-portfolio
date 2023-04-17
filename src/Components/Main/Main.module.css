@@ -1,8 +1,8 @@
 .mainBlock {
     min-height: 100vh;
-    background-color: olivedrab;
     display: flex;
     align-items: center;
+    background-color: #212428;
 }
 
 .container {
@@ -13,24 +13,63 @@
     height: 100%;
     width: 80%;
     flex-wrap: wrap;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 
 .photo {
-    height: 400px;
-    width: 350px;
-    border: 1px solid;
+    height: 650px;
+    /*width: 370px;*/
 }
 
 .infoContainer {
-    color: #ff014f;
+    color: #c4cfde;
     font-weight: bold;
     font-size: 23px;
-    border: 1px solid black;
+    padding-bottom: 150px;
 }
 
-.infoContainer h1{
-    color: #c4cfde;
+.infoContainer h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.infoContainer h1 span, .infoContainer h1 span {
+    color: #ff014f;
+}
+
+.welcome {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #c4cfde;;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.imageContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.imageContainer::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: calc(100% - 130px);
+    content: "";
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: linear-gradient(145deg, #1e2024, #23272b);;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 6px;
 }
 
 @media screen and (min-width: 360px) and (max-width: 700px) {

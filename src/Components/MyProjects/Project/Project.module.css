@@ -38,7 +38,7 @@
 }
 
 .projectMainBlock:hover .linkImage {
-    opacity: 0.9;
+    opacity: 0.95;
     border-radius: 6px;
 }
 
@@ -64,7 +64,7 @@
     font-weight: 700;
     text-decoration: none;
     color: #c4cfde;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .projectMainBlock:hover .link {

@@ -1,10 +1,26 @@
 .header {
     height: 80px;
-    background-color: blue;
+    background-color: #212428;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 0 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    backdrop-filter: blur(15px);
+    top: 0;
+    animation: headerSlideDown 0.5s ease forwards;
+
+    color: #c4cfde;
+    transition: 0.4s;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
 }
 
 @media screen and (max-width: 360px) {

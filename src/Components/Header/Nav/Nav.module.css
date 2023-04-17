@@ -1,12 +1,12 @@
 .hamburger_menu {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 300px;
 }
 
 .hamburger_menu a {
     text-decoration: none;
     color: #c4cfde;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .hamburger_menu a:hover {

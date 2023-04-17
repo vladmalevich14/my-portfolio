@@ -6,11 +6,13 @@ import {MySkills} from "./Components/MySkills/MySkills";
 import {MyProjects} from "./Components/MyProjects/MyProjects";
 import {Contacts} from "./Components/Contacts/Contacts";
 import {Footer} from "./Components/Footer/Footer";
+import styles from "./Components/Main/Main.module.css";
 
 function App() {
     return <div className='App'>
         <Header/>
         <Main/>
+        <div className='separator'></div>
         <MySkills/>
         <MyProjects/>
         <Contacts />
