@@ -15,8 +15,6 @@
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     padding: 30px;
     border-radius: 10px;
-    /*margin-left: 20px;*/
-    /*height: 100%;*/
 }
 
 .formContainer legend {
@@ -56,10 +54,6 @@
     line-height: 22px;
 }
 
-.submitStyle:hover .submit{
-    transform: translateY(-5px);
-}
-
 .submitStyle textarea {
     min-height: 216px;
     background-color: #191b1e;
@@ -78,23 +72,27 @@
     margin: 14px 0;
 }
 
-.submitStyle .submit {
+.submit {
     width: 100%;
     border-radius: 6px;
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px;
     transition: 0.4s;
-    position: relative;
-    z-index: 1;
     font-size: 14px;
     font-weight: 500;
     border: 0 none;
     cursor: pointer;
     padding: 15px;
     font-family: "Montserrat", sans-serif;
-    color: #c4cfde !important;
+    color: #c4cfde;
     letter-spacing: 1px;
+}
+
+.submitStyle .submit:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    color: #ff014f;
 }
 
 h3 {
