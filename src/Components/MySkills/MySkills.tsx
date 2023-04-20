@@ -1,7 +1,7 @@
 import React from 'react';
 import {Skill} from "./Skill/Skill";
 import styles from './MySkills.module.css'
-import {Title} from "../common/Title";
+import {Title} from "../common/Title/Title";
 import reactIcon from '../assets/icons/react.svg'
 import reduxIcon from '../assets/icons/redux.svg'
 import typeScriptIcon from '../assets/icons/typescript.svg'
@@ -52,7 +52,7 @@ export const MySkills = () => {
 
     return <div className={styles.skillsBlock} >
         <div className={styles.skillsWrapper}>
-            <Title title={'My skills'} />
+            <Title title={'My skills'} description={'What I Do'}/>
             <div className={styles.skillContainer}>
                 <Skill title={'React'} style={iconReact}/>
                 <Skill title={'Redux'} style={iconRedux}/>

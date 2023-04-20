@@ -64,7 +64,8 @@
     font-weight: 700;
     text-decoration: none;
     color: #c4cfde;
-    /*border: 1px solid black;*/
+    letter-spacing: 0.5px;
+    transition: 0.4s;
 }
 
 .projectMainBlock:hover .link {

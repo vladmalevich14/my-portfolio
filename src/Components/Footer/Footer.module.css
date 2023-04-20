@@ -24,9 +24,3 @@
     color: #c4cfde;
     padding-bottom: 10px;
 }
-
-.iconsContainer {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-}

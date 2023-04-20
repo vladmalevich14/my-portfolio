@@ -33,5 +33,11 @@
     line-height: 62px;
     transition: .4s;
     width: 100%;
+}
 
+.iconsContainer {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 0;
 }

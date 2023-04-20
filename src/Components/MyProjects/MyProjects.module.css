@@ -1,12 +1,11 @@
 .mainBlock {
-    padding: 100px 0;
+    padding: 50px 0;
     font-family: 'Montserrat', sans-serif;
     background-size: cover;
     opacity: 0.8;
 }
 
 .mainContainer {
-    /*border: 1px solid;*/
     height: 90%;
     width: 90%;
     margin: 0 auto;
@@ -21,5 +20,4 @@
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
