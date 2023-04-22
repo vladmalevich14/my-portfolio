@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Nav.module.css'
 export const Nav = () => {
-    return <div className={styles.hamburger_menu}>
+    return<div className={styles.hamburger_menu}>
         <input id={styles.menu__toggle} type="checkbox"/>
         <label className={styles.menu__btn} htmlFor={styles.menu__toggle}>
             <span></span>

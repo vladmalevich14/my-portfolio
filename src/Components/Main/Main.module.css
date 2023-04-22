@@ -107,13 +107,7 @@
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 700px) {
-    .mainBlock {
-        background-image: url('../assets/img/bgMainMob.jpg');
-        margin-bottom: 50px;
-        background-repeat: repeat;
-    }
-
+@media screen and (min-width: 360px) and (max-width: 740px) {
     .container {
         flex-direction: column-reverse;
     }
@@ -136,4 +130,12 @@
         margin-top: 50px;
     }
 
+}
+
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+    .mainBlock {
+        background-image: url('../assets/img/bgMainMob.jpg');
+        margin-bottom: 50px;
+        background-repeat: repeat;
+    }
 }

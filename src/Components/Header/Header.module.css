@@ -23,7 +23,7 @@
     outline: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 740px) {
     .header {
         justify-content: center;
         padding-right: 20px;
