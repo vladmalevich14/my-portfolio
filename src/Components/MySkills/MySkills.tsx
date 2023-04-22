@@ -50,9 +50,9 @@ export const MySkills = () => {
         backgroundImage: `url(${gitIcon})`
     }
 
-    return <div className={styles.skillsBlock} >
+    return <div id='skills' className={styles.skillsBlock} >
         <div className={styles.skillsWrapper}>
-            <Title title={'My skills'} description={'What I Do'}/>
+            <Title title={'My skills'} description={'What I Can'}/>
             <div className={styles.skillContainer}>
                 <Skill title={'React'} style={iconReact}/>
                 <Skill title={'Redux'} style={iconRedux}/>

@@ -5,7 +5,7 @@ import SocialNetworks from "../common/SocialNetworks/SocialNetworks";
 
 export const Main = () => {
 
-    return <div className={styles.mainBlock}>
+    return <div className={styles.mainBlock} id='main'>
         <div className={styles.container}>
             <div className={styles.infoContainer}>
                 <div>

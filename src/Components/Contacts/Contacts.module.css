@@ -103,3 +103,9 @@ input:focus, textarea:focus {
     border-color: #ff014f;
     outline:none;
 }
+
+@media screen and (min-width: 360px) and (max-width: 700px) {
+    .formContainer {
+        width: 100%;
+    }
+}

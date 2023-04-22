@@ -3,8 +3,8 @@ import styles from './Contacts.module.css'
 import {Title} from "../common/Title/Title";
 
 export const Contacts = () => {
-    return <div className={styles.mainBlock}>
-        <Title title={'Contacts'} description={'Contact With Me'}/>
+    return <div className={styles.mainBlock} id='contacts'>
+        <Title title={'Contact With Me'} description={'Contact'}/>
         <form action="src/Components/Contacts/Contacts" className={styles.formContainer}>
             <div className={styles.inputStyle}>
                 <label htmlFor="name">Name</label>

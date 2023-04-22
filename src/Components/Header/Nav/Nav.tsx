@@ -8,10 +8,10 @@ export const Nav = () => {
         </label>
 
         <ul className= {styles.menu__box}>
-            <li><a className={styles.menu__item} href="#">Main</a></li>
-            <li><a className={styles.menu__item} href="#">Skills</a></li>
-            <li><a className={styles.menu__item} href="#">Projects</a></li>
-            <li><a className={styles.menu__item} href="#">Contacts</a></li>
+            <li><a className={styles.menu__item} href="#main">Main</a></li>
+            <li><a className={styles.menu__item} href="#skills">Skills</a></li>
+            <li><a className={styles.menu__item} href="#projects">Projects</a></li>
+            <li><a className={styles.menu__item} href="#contacts">Contacts</a></li>
         </ul>
     </div>
 };

@@ -1,15 +1,5 @@
 .titleWrapper {
-    /*opacity: 1;*/
-    /*-webkit-transform: none;*/
-    /*transform: none;*/
-    /*transition-delay: 0.1s;*/
-    /*transition-property: opacity, transform, -webkit-transform;*/
-    /*transition-duration: 0.5s;*/
-    /*transition-timing-function: ease;*/
-    /*pointer-events: auto;*/
-    /*--widgets-spacing: 20px;*/
-    /*box-sizing: border-box;*/
-    text-align: center!important;
+    text-align: center !important;
     margin-bottom: 30px;
 }
 
@@ -18,7 +8,6 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
-    /*margin: 0 auto;*/
     color: #c4cfde;
     margin-top: 15px;
     margin-bottom: 0;
@@ -33,4 +22,10 @@
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+}
+
+@media screen and (min-width: 360px) and (max-width: 700px) {
+    .description {
+        line-height: 25px;
+    }
 }

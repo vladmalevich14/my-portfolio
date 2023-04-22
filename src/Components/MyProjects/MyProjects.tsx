@@ -29,12 +29,12 @@ export const MyProjects = () => {
         backgroundImage: `url(${todolist})`
     }
 
-    return <div className={styles.mainBlock} style={bgMySkills}>
+    return <div className={styles.mainBlock} style={bgMySkills} id='projects'>
         <div className={styles.mainContainer}>
-            <Title title={'My projects'} description={'VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK'}/>
+            <Title title={'My projects'} description={'VISIT MY PROJECTS AND KEEP YOUR FEEDBACK'}/>
             <div className={styles.projectsContainer}>
                 <Project style={socialImg} title={'Social Network'}/>
-                <Project style={counterImg} title={'Portfolio'}/>
+                <Project style={counterImg} title={'Counter'}/>
                 <Project style={todolistImg} title={'To Do List'}/>
             </div>
         </div>

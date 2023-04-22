@@ -22,5 +22,21 @@
 
 .footerContainer span {
     color: #c4cfde;
-    padding-bottom: 10px;
+    padding: 0 0 15px 10px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 700px) {
+
+    .mainBlock {
+        height: auto;
+    }
+
+    .footerContainer {
+        flex-direction: column-reverse;
+        padding: 0 5px 30px 5px;
+    }
+
+    .footerContainer span {
+        padding: 0 0 15px 0;
+    }
 }
