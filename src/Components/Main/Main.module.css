@@ -53,7 +53,6 @@
     color: #c4cfde;
     font-weight: bold;
     font-size: 23px;
-    /*padding-bottom: 150px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -120,9 +119,13 @@
         margin-bottom: 50px;
     }
 
+    .imageContainer::before {
+        width: 90%;
+    }
+
     .photo {
         height: 450px;
-        width: 80%;
+        width: 100%;
         margin-top: 20px;
     }
 
