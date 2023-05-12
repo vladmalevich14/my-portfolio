@@ -1,0 +1,32 @@
+@import "../../styles/Variables";
+@import "../../styles/Mixins";
+
+.mainBlock {
+  @include fontStyle($secondaryFontFamily, 16px, 400, 1.6, #878e99);
+  height: 5vh;
+  background-color: $bgColor;
+  @include flex(row, center, center);
+
+  .footerContainer {
+    @include flex(row, space-between, center);
+    height: 100%;
+    width: 80%;
+    padding: 30px 5px 50px 5px;
+
+    .footerContainer span {
+      padding: 0 0 15px 10px;
+      @media screen and (min-width: 360px) and (max-width: 740px) {
+        padding: 0 0 15px 0;
+      }
+    }
+
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+      flex-direction: column-reverse;
+      padding: 0 5px 30px 5px;
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    height: auto;
+  }
+}

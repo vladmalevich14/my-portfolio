@@ -1,0 +1,122 @@
+@import "../../../styles/Variables";
+@import "../../../styles/Mixins";
+
+.hamburger_menu {
+    width: 300px;
+}
+
+.hamburger_menu a {
+    text-decoration: none;
+    color: $primaryColor;
+}
+
+.hamburger_menu a:hover {
+    color: $secondaryColor;
+}
+
+.menu__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__box li {
+    list-style-type: none;
+}
+
+.menu__btn, #menu__toggle {
+    display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+
+    .hamburger_menu {
+        border: none;
+    }
+
+    .hamburger_menu a {
+        color: $bgColor;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+    }
+
+    #menu__toggle:checked + .menu__btn > span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked + .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0deg);
+    }
+
+    #menu__toggle:checked + .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+        left: 0 !important;
+    }
+
+    .menu__btn {
+        display: block;
+        position: fixed;
+        top: 40px;
+        right: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: $secondaryColor;
+        transition-duration: .5s;
+    }
+
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 250px;
+        margin: 0;
+        padding: 100px 0 1000px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .5s;
+    }
+
+    .menu__item {
+        @include fontStyle($primaryFontFamily, 14px, 500, 1.9, $secondaryColor);
+        display: block;
+        padding: 12px 24px;
+        //color: #333;
+        text-decoration: none;
+        transition-duration: .5s;
+    }
+
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+}

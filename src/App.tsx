@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./Components/Header/Header";
-import {Main} from "./Components/Main/Main";
-import {MySkills} from "./Components/MySkills/MySkills";
-import {MyProjects} from "./Components/MyProjects/MyProjects";
-import {Contacts} from "./Components/Contacts/Contacts";
-import {Footer} from "./Components/Footer/Footer";
+import {Header} from "./components/Header/Header";
+import {Main} from "./components/Main/Main";
+import {MySkills} from "./components/MySkills/MySkills";
+import {MyProjects} from "./components/MyProjects/MyProjects";
+import {Contacts} from "./components/Contacts/Contacts";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     return <div className='App'>

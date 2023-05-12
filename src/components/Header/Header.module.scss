@@ -1,0 +1,24 @@
+@import "../../styles/Variables";
+@import "../../styles/Mixins";
+
+.header {
+  @include fontStyle($primaryFontFamily, 13px, 400, 1.9, $primaryColor);
+  @include backgroundShadow();
+  @include flex(row, flex-end, center);
+  letter-spacing: 1px;
+  height: 80px;
+  padding: 0 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  backdrop-filter: blur(15px);
+  top: 0;
+  animation: headerSlideDown 0.5s ease forwards;
+  transition: .4s;
+  text-transform: uppercase;
+  outline: none;
+  @media screen and (max-width: 740px) {
+    justify-content: center;
+    padding-right: 20px;
+  }
+}

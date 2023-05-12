@@ -1,0 +1,28 @@
+@import "../../styles/Variables";
+@import "../../styles/Mixins";
+
+.skillsBlock {
+  @include fontStyle($primaryFontFamily, 24px, 500, 32px, $primaryColor);
+  min-height: 90vh;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+
+  .skillsWrapper {
+    @include flex(column, flex-start, center);
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+
+    .skillContainer {
+      @include flex(row, space-around, center);
+      height: 80%;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    margin-bottom: 35px;
+  }
+}

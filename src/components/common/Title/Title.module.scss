@@ -1,0 +1,26 @@
+@import "../../../styles/Variables";
+@import "../../../styles/Mixins";
+
+.titleWrapper {
+  text-align: center;
+  margin-bottom: 30px;
+
+  .description {
+    display: block;
+    @include fontStyle($primaryFontFamily, 14px, 500, 14px, $secondaryColor);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+      line-height: 25px;
+    }
+  }
+
+  .title {
+    @include fontStyle($primaryFontFamily, 40px, 700, 50px, $primaryColor);
+    margin-top: 15px;
+    margin-bottom: 0;
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+      padding: 0 5px;
+    }
+  }
+}

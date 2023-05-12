@@ -1,0 +1,104 @@
+@import "../../styles/Variables";
+@import "../../styles/Mixins";
+
+.mainBlock {
+  @include flex(column, center, center);
+  min-height: 100vh;
+  background-color: $bgColor;
+  padding: 50px 0;
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: $boxShadowSettings;
+    padding: 30px;
+    border-radius: 10px;
+
+    .inputStyle {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+
+      input {
+        @include fontStyle($primaryFontFamily, 14px, 400, 28px, $primaryColor);
+        letter-spacing: 1px;
+        width: 100%;
+        border-radius: 6px;
+        height: 55px;
+        transition: 0.4s;
+        padding: 0 15px;
+        background-color: $bgInputColor;
+        border: 2px solid $bgInputColor;
+        box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+
+        &:focus {
+          border-color: $secondaryColor;
+          outline: none;
+        }
+
+        &:-webkit-autofill {
+          border: 2px solid $bgInputColor;
+          -webkit-text-fill-color: $primaryColor;
+          -webkit-box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+          transition: background-color 5000s ease-in-out 0s;
+        }
+      }
+    }
+
+    .submitStyle {
+
+      textarea {
+        @include fontStyle($primaryFontFamily, 14px, 400, 18px, $primaryColor);
+        min-height: 216px;
+        background-color: $bgInputColor;
+        border-radius: 6px;
+        padding: 10px;
+        transition: 0.4s;
+        border: 2px solid $bgInputColor;
+        box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+        letter-spacing: 1px;
+        resize: none;
+        width: 100%;
+        margin: 14px 0;
+      }
+
+      .submit {
+        @include fontStyle($primaryFontFamily, 14px, 500, 1.7, $primaryColor);
+        @include backgroundShadow();
+        letter-spacing: 1px;
+        width: 100%;
+        border: 0 none;
+        border-radius: 6px;
+        --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px;
+        transition: 0.4s;
+        cursor: pointer;
+        padding: 15px;
+
+        &:hover {
+          transform: translateY(-5px);
+          background: linear-gradient(to right bottom, #212428, #16181c);
+          color: $secondaryColor;
+        }
+      }
+
+      textarea:focus {
+        border-color: $secondaryColor;
+        outline: none;
+      }
+    }
+
+    label {
+      @include fontStyle($primaryFontFamily, 12px, 500, 22px, $primaryColor);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: left;
+      margin-bottom: 14px;
+    }
+
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+      width: 100%;
+    }
+  }
+}
+
