@@ -10,5 +10,4 @@ export const Footer = () => {
             <NetworkIcons/>
         </div>
     </div>
-
 };

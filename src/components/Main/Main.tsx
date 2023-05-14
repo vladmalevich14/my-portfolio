@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Main.module.scss'
 import myPhoto from '../../assets/img/My-photo.png'
 import NetworkIcons from "../common/NetworkIcons/NetworkIcons";
-import {Slide} from "react-awesome-reveal";
+import {Fade, Slide} from "react-awesome-reveal";
 import ReactTypingEffect from 'react-typing-effect';
 
 
@@ -25,7 +25,9 @@ export const Main = () => {
                         </span>
                     </div>
                     <div className={styles.networkWrapper}>
+                        <Fade delay={500} triggerOnce>
                         <NetworkIcons/>
+                        </Fade>
                     </div>
                 </div>
             </Slide>
