@@ -44,6 +44,11 @@
           transition: background-color 5000s ease-in-out 0s;
         }
       }
+      .error {
+        @include fontStyle($primaryFontFamily, 14px, 500, 28px, $primaryColor);
+        color: red;
+        margin: 5px 2px;
+      }
     }
 
     .submitStyle {
@@ -60,7 +65,7 @@
         letter-spacing: 1px;
         resize: none;
         width: 100%;
-        margin: 14px 0;
+        margin: 14px 0 0 0;
       }
 
       .submit {
@@ -85,6 +90,11 @@
       textarea:focus {
         border-color: $secondaryColor;
         outline: none;
+      }
+      .error {
+        @include fontStyle($primaryFontFamily, 14px, 500, 28px, $primaryColor);
+        color: red;
+        margin: 5px 2px;
       }
     }
 

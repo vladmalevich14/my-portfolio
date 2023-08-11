@@ -38,7 +38,7 @@ export const MyProjects = () => {
             <Title title={'My projects'} description={'VISIT MY PROJECTS AND KEEP YOUR FEEDBACK'}/>
             </Slide>
             <div className={styles.projectsContainer}>
-                <Project link={'https://vladmalevich14.github.io/autocheck-homeworks/#/pre-junior'} style={socialImg} title={'Social Network'}/>
+                <Project link={'https://vladmalevich14.github.io/profile'} style={socialImg} title={'Social Network'}/>
                 <Project link={'https://vladmalevich14.github.io/autocheck-homeworks/#/junior'} style={counterImg} title={'Counter'}/>
                 <Project link={'https://vladmalevich14.github.io/autocheck-homeworks/#/junior-plus'} style={todolistImg} title={'To Do List'}/>
             </div>
