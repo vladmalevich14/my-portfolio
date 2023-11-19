@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.065876f4.css",
-    "main.js": "/my-portfolio/static/js/main.3f270af8.js",
+    "main.js": "/my-portfolio/static/js/main.1be16463.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/My-photo.png": "/my-portfolio/static/media/My-photo.5b612882b3115fc593fc.png",
     "static/media/bgMain.jpg": "/my-portfolio/static/media/bgMain.de4eba68b5108881a88c.jpg",
+    "static/media/restaurant.jpg": "/my-portfolio/static/media/restaurant.a8daa5d3c938ddeba6db.jpg",
     "static/media/todolist.png": "/my-portfolio/static/media/todolist.6ecefc06196cf064e0d8.png",
-    "static/media/social-network.png": "/my-portfolio/static/media/social-network.de40c3a641f23169646b.png",
-    "static/media/counter.png": "/my-portfolio/static/media/counter.2b9fdd2c22299ab76712.png",
     "static/media/bgSkills.jpg": "/my-portfolio/static/media/bgSkills.950bd493505c25b5f0f9.jpg",
+    "static/media/flashCards.jpg": "/my-portfolio/static/media/flashCards.e8ab9a15b0b42c1118b4.jpg",
     "static/media/react.svg": "/my-portfolio/static/media/react.ced1ae3bd45eaead1d7d096a59b4cbec.svg",
     "static/media/css.svg": "/my-portfolio/static/media/css.9a15da1500f1dbc1d86c5779f3216f87.svg",
     "static/media/api.svg": "/my-portfolio/static/media/api.76d2a796e8311df2b10fdd76f6748eca.svg",
@@ -25,11 +25,11 @@
     "static/media/typescript.svg": "/my-portfolio/static/media/typescript.2c5789744b4dcaac0abb44e53d1f8e15.svg",
     "static/media/mui.svg": "/my-portfolio/static/media/mui.0f1af0eab521ea360d2bfb290a1f3db2.svg",
     "main.065876f4.css.map": "/my-portfolio/static/css/main.065876f4.css.map",
-    "main.3f270af8.js.map": "/my-portfolio/static/js/main.3f270af8.js.map",
+    "main.1be16463.js.map": "/my-portfolio/static/js/main.1be16463.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.065876f4.css",
-    "static/js/main.3f270af8.js"
+    "static/js/main.1be16463.js"
   ]
 }
