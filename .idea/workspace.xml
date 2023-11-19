@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f183105-2b9b-4668-ae5a-4bc68124c8c4" name="Changes" comment="feedback_form">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/My-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bgMain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bgSkills.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/counter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/flashCards.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/restaurant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/social-network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/todolist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/NetworkIcons/NetworkIcons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/NetworkIcons/NetworkIcons.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2Ig0LP05jA5YvZX7NLZ6D5m6v73" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/IT-Incubator/porfolio/my-portfolio",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\IT-Incubator\\porfolio\\my-portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT-Incubator\my-portfolio\src\components\Header\Nav" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT-Incubator\porfolio\my-portfolio\src\assets\img" />
+      <recent name="D:\IT-Incubator\my-portfolio\src\components" />
+      <recent name="D:\IT-Incubator\my-portfolio\src" />
+      <recent name="D:\IT-Incubator\my-portfolio\src\Components" />
+      <recent name="D:\IT-Incubator\my-portfolio\src\" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f183105-2b9b-4668-ae5a-4bc68124c8c4" name="Changes" comment="" />
+      <created>1670587865680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670587865680</updated>
+      <workItem from="1670587868470" duration="7972000" />
+      <workItem from="1670681894369" duration="1104000" />
+      <workItem from="1670693246393" duration="2752000" />
+      <workItem from="1670752993756" duration="2953000" />
+      <workItem from="1670756994710" duration="12636000" />
+      <workItem from="1670840692200" duration="5471000" />
+      <workItem from="1670846829947" duration="6000" />
+      <workItem from="1671021074898" duration="6095000" />
+      <workItem from="1671032254502" duration="96000" />
+      <workItem from="1671112961329" duration="760000" />
+      <workItem from="1671182536046" duration="4609000" />
+      <workItem from="1671645771698" duration="984000" />
+      <workItem from="1671647054184" duration="667000" />
+      <workItem from="1671648075826" duration="111000" />
+      <workItem from="1677860366478" duration="1199000" />
+      <workItem from="1678092640486" duration="12000" />
+      <workItem from="1681565837849" duration="18480000" />
+      <workItem from="1681665195711" duration="10586000" />
+      <workItem from="1681753317495" duration="9052000" />
+      <workItem from="1681762755019" duration="68000" />
+      <workItem from="1681837473652" duration="6751000" />
+      <workItem from="1681847699907" duration="900000" />
+      <workItem from="1681851650905" duration="1093000" />
+      <workItem from="1682012701819" duration="6298000" />
+      <workItem from="1682160674898" duration="8059000" />
+      <workItem from="1682173476225" duration="7000" />
+      <workItem from="1682270868061" duration="1849000" />
+      <workItem from="1683641367973" duration="13853000" />
+      <workItem from="1683740716757" duration="33000" />
+      <workItem from="1683826163473" duration="4603000" />
+      <workItem from="1683833120823" duration="657000" />
+      <workItem from="1683833800445" duration="1234000" />
+      <workItem from="1683914148232" duration="9367000" />
+      <workItem from="1683989491757" duration="3752000" />
+      <workItem from="1683999064933" duration="257000" />
+      <workItem from="1684048799412" duration="283000" />
+      <workItem from="1684180141439" duration="23000" />
+      <workItem from="1685260801681" duration="630000" />
+      <workItem from="1691500653985" duration="2719000" />
+      <workItem from="1691509921583" duration="7849000" />
+      <workItem from="1691750436454" duration="3432000" />
+      <workItem from="1692780603852" duration="595000" />
+      <workItem from="1692804330997" duration="50000" />
+      <workItem from="1700246359483" duration="594000" />
+      <workItem from="1700300942201" duration="8000" />
+      <workItem from="1700300971153" duration="905000" />
+      <workItem from="1700302754011" duration="3015000" />
+      <workItem from="1700417187187" duration="1113000" />
+    </task>
+    <task id="LOCAL-00001" summary="second_commit">
+      <created>1671027825435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671027825435</updated>
+    </task>
+    <task id="LOCAL-00002" summary="third_commit">
+      <created>1671032326469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671032326469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fourth_commit">
+      <created>1671186612137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671186612137</updated>
+    </task>
+    <task id="LOCAL-00004" summary="height_commit">
+      <created>1671646394331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671646394331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="height_commit">
+      <created>1671647681118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671647681118</updated>
+    </task>
+    <task id="LOCAL-00006" summary="part2_commit">
+      <created>1681676133829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681676133829</updated>
+    </task>
+    <task id="LOCAL-00007" summary="contacts_commit">
+      <created>1681762782733</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681762782733</updated>
+    </task>
+    <task id="LOCAL-00008" summary="footer_commit">
+      <created>1681852724905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681852724905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="footer_commit">
+      <created>1682018629544</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682018629544</updated>
+    </task>
+    <task id="LOCAL-00010" summary="secondPart_commit">
+      <created>1682170078671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682170078671</updated>
+    </task>
+    <task id="LOCAL-00011" summary="secondPartBeforeCheck_commit">
+      <created>1682172897668</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682172897668</updated>
+    </task>
+    <task id="LOCAL-00012" summary="secondPartBeforeCheck">
+      <created>1682271120720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682271120720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="secondPartBeforeCheck">
+      <created>1682272060955</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682272060955</updated>
+    </task>
+    <task id="LOCAL-00014" summary="secondPartBeforeCheck">
+      <created>1682272151796</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682272151796</updated>
+    </task>
+    <task id="LOCAL-00015" summary="secondPartBeforeCheckFinally">
+      <created>1682272564729</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682272564729</updated>
+    </task>
+    <task id="LOCAL-00016" summary="effects_visual">
+      <created>1683923695498</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683923695498</updated>
+    </task>
+    <task id="LOCAL-00017" summary="part3">
+      <created>1683997642082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683997642082</updated>
+    </task>
+    <task id="LOCAL-00018" summary="part3.1">
+      <created>1684048973221</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684048973221</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feedback_form">
+      <created>1691755669956</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691755669956</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second_commit" />
+    <MESSAGE value="third_commit" />
+    <MESSAGE value="fourth_commit" />
+    <MESSAGE value="height_commit" />
+    <MESSAGE value="part2_commit" />
+    <MESSAGE value="contacts_commit" />
+    <MESSAGE value="footer_commit" />
+    <MESSAGE value="secondPart_commit" />
+    <MESSAGE value="secondPartBeforeCheck_commit" />
+    <MESSAGE value="secondPartBeforeCheck" />
+    <MESSAGE value="secondPartBeforeCheckFinally" />
+    <MESSAGE value="effects_visual" />
+    <MESSAGE value="part3" />
+    <MESSAGE value="part3.1" />
+    <MESSAGE value="feedback_form" />
+    <option name="LAST_COMMIT_MESSAGE" value="feedback_form" />
+  </component>
+</project>

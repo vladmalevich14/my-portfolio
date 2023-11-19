@@ -21,7 +21,7 @@ const NetworkIcons = () => {
     }
     return (
         <ul className={styles.iconsContainer}>
-            <li><a href='https://www.linkedin.com/in/vlad-malevich-177ba11ba/' className={styles.iconLink} target={'_blank'}><div style={linkedinIcon}></div></a></li>
+            <li><a href='https://www.linkedin.com/in/vladmalevich/' className={styles.iconLink} target={'_blank'}><div style={linkedinIcon}></div></a></li>
             <li><a href='https://t.me/vlad_malevich14' className={styles.iconLink} target={'_blank'}><div style={telegramIcon}></div></a></li>
             <li><a href='mailto:vladmalevich1431@gmail.com' className={styles.iconLink} target={'_blank'}><div style={gmailIcon}></div></a></li>
             <li><a href='https://github.com/vladmalevich14' className={styles.iconLink} target={'_blank'}><div style={githubIcon}></div></a></li>

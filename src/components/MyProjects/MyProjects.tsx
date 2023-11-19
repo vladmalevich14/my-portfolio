@@ -4,8 +4,9 @@ import styles from './MyProjects.module.scss'
 import {Title} from "../common/Title/Title";
 import todolist from "../../assets/img/todolist.png"
 import social from "../../assets/img/social-network.png"
-import counter from "../../assets/img/counter.png"
+import restaurant from "../../assets/img/restaurant.jpg"
 import bgSkills from "../../assets/img/bgSkills.jpg";
+import flashCards from "../../assets/img/flashCards.jpg";
 import ParticlesComponent from "../common/Particles/Particles";
 import {Slide} from "react-awesome-reveal";
 
@@ -19,12 +20,12 @@ export const MyProjects = () => {
         backgroundImage: `url(${bgSkills})`
     }
 
-    const socialImg: backgroundImgType = {
-        backgroundImage: `url(${social})`
+    const restaurantImg: backgroundImgType = {
+        backgroundImage: `url(${restaurant})`
     }
 
-    const counterImg: backgroundImgType = {
-        backgroundImage: `url(${counter})`
+    const flashCardsImg: backgroundImgType = {
+        backgroundImage: `url(${flashCards})`
     }
 
     const todolistImg: backgroundImgType = {
@@ -32,15 +33,18 @@ export const MyProjects = () => {
     }
 
     return <div className={styles.mainBlock} style={bgMySkills} id='projects'>
-        <ParticlesComponent />
+        <ParticlesComponent/>
         <div className={styles.mainContainer}>
             <Slide direction={'up'} triggerOnce>
-            <Title title={'My projects'} description={'VISIT MY PROJECTS AND KEEP YOUR FEEDBACK'}/>
+                <Title title={'My projects'} description={'VISIT MY PROJECTS AND KEEP YOUR FEEDBACK'}/>
             </Slide>
             <div className={styles.projectsContainer}>
-                <Project link={'https://vladmalevich14.github.io/profile'} style={socialImg} title={'Social Network'}/>
-                <Project link={'https://vladmalevich14.github.io/autocheck-homeworks/#/junior'} style={counterImg} title={'Counter'}/>
-                <Project link={'https://vladmalevich14.github.io/autocheck-homeworks/#/junior-plus'} style={todolistImg} title={'To Do List'}/>
+                <Project link={'https://vladmalevich14.github.io/to-do-list'} style={todolistImg} title={'Task manager'}/>
+                <Project link={'https://vladmalevich.github.io/'}
+                         style={restaurantImg}
+                         title={'Restaurant Bosco'}/>
+                <Project link={'https://question-cards.vercel.app/'} style={flashCardsImg}
+                         title={'Flashcards'}/>
             </div>
         </div>
     </div>
